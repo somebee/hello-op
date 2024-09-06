@@ -12,4 +12,8 @@ tag App
 			<div> "Found {Match.all!.size} matches"
 			<button @click=add-match> "Add match"
 
+			<ul> for item in Match.all(!&.deleted?)
+				<li> `{item.id} - {item.desc} - {item.deleted?}`
+
+
 imba.mount <App>

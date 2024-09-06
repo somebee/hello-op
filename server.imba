@@ -13,8 +13,10 @@ Just for testing - returns all models!
 app.pub('common') do(pub)
 	for type of OP.tables
 		continue if type.name.startsWith('OP')
-		pub.add(await type.all!)
-
+		await type.fetch-all!
+		L 'publishing',type..name,type.all!.size
+		pub.add(type.all!)
+	return
 
 app.get('/') do(req,res)
 
