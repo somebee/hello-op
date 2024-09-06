@@ -1,7 +1,7 @@
 import 'op'
 import './models'
 
-tag app
+tag App
 
 	def	add-match
 		Match.create(desc: "Another match")
@@ -12,4 +12,4 @@ tag app
 			<div> "Found {Match.all!.size} matches"
 			<button @click=add-match> "Add match"
 
-imba.mount <app>
+imba.mount <App>
