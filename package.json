@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "imba --esm -w server.imba"
+  },
+  "dependencies": {
+    "imba": "^2.0.0-alpha.236"
+  }
+}
