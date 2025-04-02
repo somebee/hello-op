@@ -1,2 +1,5 @@
 node_modules
 schema.sql
+.DS_Store
+dist/
+*.log

@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "dev": "imba --esm -w server.imba"
+    "dev": "imba --esm -w app/server.imba",
+    "build": "imba build --br --esm -mSpk --node.sM app/server.imba",
+    "postinstall": "git submodule update --init --recursive && cd op && npm install"
   },
   "dependencies": {
-    "imba": "^2.0.0-alpha.236"
+    "imba": "^2.0.0-alpha.241"
   }
 }
