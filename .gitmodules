@@ -1,3 +1,4 @@
 [submodule "op"]
 	path = op
-	url = https://github.com/scrimba/op
+	url = git@github.com:scrimba/op.git
+	branch = main

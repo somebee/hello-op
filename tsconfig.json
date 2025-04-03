@@ -17,7 +17,6 @@
     "allowArbitraryExtensions": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "suppressExcessPropertyErrors": true,
     "suppressImplicitAnyIndexErrors": false,
     "resolveJsonModule": true,
     "module": "esnext",
